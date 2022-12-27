@@ -1,5 +1,7 @@
 plugins {
     id("gradleconvention.android.application")
+    id("gradleconvention.android.application.compose")
+    id("gradleconvention.android.hilt")
     kotlin("android")
 }
 
