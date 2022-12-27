@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Convention Plugin"
-include ':app'
+include(":app")
