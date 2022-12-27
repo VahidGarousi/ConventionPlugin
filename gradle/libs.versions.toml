@@ -8,6 +8,8 @@ androidxEspresso = "3.5.0"
 androidxComposeBom = "2022.12.00"
 androidxComposeCompiler = "1.3.2"
 androidGradlePlugin = "7.3.1"
+kotlin = "1.7.21"
+androidDesugarJdkLibs = "1.2.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
@@ -17,6 +19,11 @@ androidx-test-ext = { group = "androidx.test.ext", name = "junit-ktx", version.r
 androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspresso" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
 junit4 = { group = "junit", name = "junit", version.ref = "junit4" }
+android-desugarJdkLibs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "androidDesugarJdkLibs" }
+
+# Dependencies of the included build-logic
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
+kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 
 
 [plugins]

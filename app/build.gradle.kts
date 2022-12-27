@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.application")
+    id("gradleconvention.android.application")
     kotlin("android")
 }
 
